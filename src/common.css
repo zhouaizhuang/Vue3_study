@@ -55,7 +55,7 @@ input, textarea, img, video, object { width:100%; box-sizing: border-box;} .bord
 /* 边框、外线为0 */
 .bd0{border:0; outline:none;}
 /*PC端*/
-.bdc{border: 1px solid #ccc;} .bdbe{border-bottom: 1px solid #eee;} .bdbe5{border-bottom: 1px solid #e5e5e5;}
+.bdc{border: 1px solid #ccc;} .bdbc{border-bottom: 1px solid #ccc;} .bdbe{border-bottom: 1px solid #eee;} .bdbe5{border-bottom: 1px solid #e5e5e5;}
 /*移动端*/
 .bdc-r{border: 0.01rem solid #ccc;} .bdbe-r{border-bottom: 0.01rem solid #eee;}
 /* 背景色 */
