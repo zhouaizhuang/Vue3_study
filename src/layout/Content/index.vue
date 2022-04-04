@@ -24,6 +24,13 @@
         <div>loading....</div>
       </template>
     </Suspense>
+
+<!--插入到body中-->
+    <teleport to="body"> <!--甚至可以插入某个类样式中， 比如.modal   通常用于全屏控件-->
+      <div>
+        loading....
+      </div>
+    </teleport>
   </div>
 </template>
 <script setup lang="ts">
