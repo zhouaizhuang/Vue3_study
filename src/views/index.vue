@@ -7,6 +7,7 @@
           <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/testRef">ref声明与读取</router-link></div>
           <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/testIsRef">isRef(判断是否是ref)</router-link></div>
           <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/testShallowRef">shallowRef(冻结ref对象)</router-link></div>
+          <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/testTriggerRef">triggerRef(强制更新ref对象)</router-link></div>
       </div>
     </div>
   </div>
