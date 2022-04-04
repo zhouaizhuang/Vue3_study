@@ -1,14 +1,14 @@
 <template>
   <div>
-    <header class="bgff5650" style="height:100px;">
+    <header class="bgff5650" style="height:50px;">
       <slot name="header"></slot>
     </header>
-    <main class="bg1890ff" style="height:200px;">
+    <main class="bg1890ff" style="height:50px;">
       <div v-for="(item, index) in data" :key="item">
         <slot :index="index" :data="item"></slot> <!--匿名插槽--> <!--插槽传参-->
       </div>
     </main>
-    <footer class="bgc7a35d" style="height:100px;">
+    <footer class="bgc7a35d" style="height:50px;">
       <slot name="footer"></slot>
     </footer>
   </div>

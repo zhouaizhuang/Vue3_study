@@ -14,13 +14,27 @@
         <div>我是footer</div>
       </template>
     </Dialog>
+
+    <!--异步组件-->
+    <Suspense>
+      <template #default>
+        <A></A>
+      </template>
+      <template #fallback> <!--加载出来之前显示啥-->
+        <div>loading....</div>
+      </template>
+    </Suspense>
   </div>
 </template>
 <script setup lang="ts">
 import Dialog from "../../components/Dialog/index.vue"
-import { ref } from "vue"
+// import A from "../../components/A/index.vue"
+import { defineAsyncComponent, ref } from "vue"
 // 动态插槽
 let name = ref('footer')
+
+// 异步组件
+const A = defineAsyncComponent(() => import('../../components/A/index.vue'))
 
 </script>
 <style scoped>
