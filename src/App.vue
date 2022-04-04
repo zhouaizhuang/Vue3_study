@@ -9,7 +9,9 @@
   <div>{{Test.current}}</div> -->
   <!-- <router-link to="/">login</router-link>
   <router-link to="/regist">regist</router-link> -->
-  <router-view></router-view>
+  <div style="max-width:8rem;" class="bgf5 auto">
+    <router-view></router-view>
+  </div>
 </template>
 <script setup lang="ts">
 import layout from "./layout/index.vue"
