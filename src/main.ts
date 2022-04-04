@@ -3,6 +3,9 @@ import App from './App.vue'
 import "./common.css"
 import Card from "./components/Card/index.vue"
 import { createPinia, PiniaPluginContext } from "pinia"
+import router from "./router"
+import "./libs/px2rem.js"
+
 const setStorage = (key: string, value: any) => {
   localStorage.setItem(key, JSON.stringify(value))
 }
@@ -31,7 +34,7 @@ store.use(piniaPlugin({
 }))
 let app = createApp(App)
 app.use(store)
-
+app.use(router)
 
 type Filter = {
   format: <T>(str:T) => string

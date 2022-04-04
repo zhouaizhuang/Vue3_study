@@ -1,19 +1,21 @@
 <template>
-  <layout></layout>
+  <!-- <layout></layout>
   <B v-background:aaa.xiaoman="{background:'red'}"></B>
   <div>{{message}}</div>
   <img id="img" width="300" height="300" src="./assets/qnxz_complain.png" />
-  <!-- <div>{{$filters.format('张三')}}</div> -->
   <div>{{current}}</div>
   <div>{{name}}</div>
   <div @click="change" class="pl10 pr10 pt10 pb10 bdc">增加</div>
-  <div>{{Test.current}}</div>
+  <div>{{Test.current}}</div> -->
+  <!-- <router-link to="/">login</router-link>
+  <router-link to="/regist">regist</router-link> -->
+  <router-view></router-view>
 </template>
 <script setup lang="ts">
 import layout from "./layout/index.vue"
 import B from "./components/B/index.vue"
 import { DirectiveBinding, provide } from "vue"
-import useBase64 from "./hooks"
+// import useBase64 from "./hooks"
 import { useTestStore } from "./store"
 import { storeToRefs } from "pinia"
 const Test = useTestStore()
@@ -61,9 +63,9 @@ const {current, name} = storeToRefs(Test)
 
 
 
-useBase64({el: '#img'}).then(res => {
-  console.log(res.baseUrl);
-})
+// useBase64({el: '#img'}).then(res => {
+//   console.log(res.baseUrl);
+// })
 provide('flag', false)
 let message = ref<string>('asdasd===')
 const vBackground:Directive = {
