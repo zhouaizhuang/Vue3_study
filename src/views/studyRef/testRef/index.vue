@@ -1,5 +1,5 @@
 <template>
-  <div class="bgf5">
+  <div class="bgf5 mh100vh">
     <div class="f">
       <div class="pr10">读取变量:</div>
       <div class="f1 g42b983">{{msg}}</div>

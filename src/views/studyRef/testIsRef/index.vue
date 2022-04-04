@@ -1,5 +1,5 @@
 <template>
-  <div class="bgf5">
+  <div class="bgf5 mh100vh">
     <div class="f">
       <div class="pr10">判断是否是ref:</div>
       <div class="f1 g42b983">{{state}}</div>

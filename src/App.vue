@@ -9,17 +9,25 @@
   <div>{{Test.current}}</div> -->
   <!-- <router-link to="/">login</router-link>
   <router-link to="/regist">regist</router-link> -->
-  <div style="max-width:8rem;" class="bgf5 auto">
+  <div v-if="route.path === '/index'">
+    <router-view/>
+  </div>
+  <div v-else style="max-width:8rem;" class="bgf5 auto">
     <router-view></router-view>
   </div>
 </template>
 <script setup lang="ts">
+import {useRoute} from "vue-router"
 import layout from "./layout/index.vue"
 import B from "./components/B/index.vue"
 import { DirectiveBinding, provide } from "vue"
 // import useBase64 from "./hooks"
 import { useTestStore } from "./store"
 import { storeToRefs } from "pinia"
+const route = useRoute()
+
+
+
 const Test = useTestStore()
 const change = () => {
   // Test.current++
