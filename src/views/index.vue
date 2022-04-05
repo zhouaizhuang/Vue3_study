@@ -25,6 +25,7 @@
       <div class="pr20r b" style="width:2.2rem;">reactive全家桶</div>
       <div class="f1 f xs ac rw">
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/testComputed">computed计算属性</router-link></div>
+        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/testWatch">watch监听</router-link></div>
       </div>
     </div>
   </div>
