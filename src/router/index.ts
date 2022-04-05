@@ -2,7 +2,7 @@ import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router"
 import { refs } from "./modules/ref"
 import { reactive } from "./modules/reactive"
 import { monitor } from "./modules/monitor"
-
+import { cmpt } from "./modules/component"
 const routes:Array<RouteRecordRaw> = [
   { path: '/', redirect: { name: 'index' } },
   { path: '/index', name: 'index', component: () => import('../views/index.vue') },
@@ -10,6 +10,7 @@ const routes:Array<RouteRecordRaw> = [
   ...refs,
   ...reactive,
   ...monitor,
+  ...cmpt,
 ]
 const router = createRouter({
   history: createWebHistory(),
