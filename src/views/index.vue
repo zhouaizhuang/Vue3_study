@@ -28,6 +28,7 @@
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/testWatch">watch监听</router-link></div>
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/testWatchMore">watch监听多个</router-link></div>
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/deepWacth">watch深度监听</router-link></div>
+        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/watchReactive">reactive自动深度监听</router-link></div>
       </div>
     </div>
   </div>

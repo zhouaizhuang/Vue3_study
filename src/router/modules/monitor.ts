@@ -4,4 +4,5 @@ export const monitor:Array<RouteRecordRaw> = [
   { path: '/testWatch', component: () => import('../../views/studyMoniter/testWatch/index.vue') },
   { path: '/testWatchMore', component: () => import('../../views/studyMoniter/testWatchMore/index.vue') },
   { path: '/deepWacth', component: () => import('../../views/studyMoniter/deepWacth/index.vue') },
+  { path: '/watchReactive', component: () => import('../../views/studyMoniter/watchReactive/index.vue') },
 ]
