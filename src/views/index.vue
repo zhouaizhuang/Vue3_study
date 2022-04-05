@@ -37,6 +37,7 @@
       <div class="pr20r b" style="width:2.2rem;">组件</div>
       <div class="f1 f xs ac rw">
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/useCom">引入组件</router-link></div>
+        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/definePropsEmit">组件传值propsEmit</router-link></div>
       </div>
     </div>
   </div>
