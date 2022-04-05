@@ -6,4 +6,5 @@ export const cmpt:Array<RouteRecordRaw> = [
   { path: '/dynamicCom', component: () => import('../../views/studyCom/dynamicCom/index.vue') },
   { path: '/slot', component: () => import('../../views/studyCom/slot/index.vue') },
   { path: '/testKeepAlive', component: () => import('../../views/studyCom/testKeepAlive/index.vue') },
+  { path: '/provideInject', component: () => import('../../views/studyCom/provideInject/father.vue') },
 ]
