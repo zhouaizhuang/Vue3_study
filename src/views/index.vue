@@ -17,6 +17,7 @@
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/testReactive">reactive声明与读取</router-link></div>
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/testReadonly">readonly数据改为只读</router-link></div>
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/testShallowReactive">shallowReactive冻结</router-link></div>
+        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/testToRef">toRef(转ref)</router-link></div>
       </div>
     </div>
   </div>
