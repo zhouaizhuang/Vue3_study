@@ -38,8 +38,8 @@
       <div class="f1 f xs ac rw">
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/useCom">引入组件</router-link></div>
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/recursionCom">递归组件</router-link></div>
-        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/definePropsEmit">组件传值propsEmit</router-link></div>
-        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/provideInject">组件传值provideInject</router-link></div>
+        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/definePropsEmit">组件传值props&&emit</router-link></div>
+        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/provideInject">组件传值provide&&inject</router-link></div>
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/dynamicCom">动态组件</router-link></div>
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/slot">插槽</router-link></div>
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/testKeepAlive">keepalive</router-link></div>
