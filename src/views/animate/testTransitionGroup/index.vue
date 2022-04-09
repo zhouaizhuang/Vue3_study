@@ -7,7 +7,7 @@
         enter-active-class="animated backInDown"
         leave-active-class="animated backOutDown"
       >
-        <div class="pt10 pb10 pr10 pl10" v-for="item in list" :key="item">{{item}}</div>
+        <div class="pt20 pb20 pr20 pl20 fs30" v-for="item in list" :key="item">{{item}}</div>
       </transition-group>
     </div>
   </div>
