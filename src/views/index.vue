@@ -43,6 +43,7 @@
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/dynamicCom">动态组件</router-link></div>
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/slot">插槽</router-link></div>
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/testKeepAlive">keepalive</router-link></div>
+        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/vmodel">vmodel</router-link></div>
       </div>
     </div>
     <div class="f">
