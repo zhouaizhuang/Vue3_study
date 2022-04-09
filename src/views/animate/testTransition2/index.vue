@@ -28,7 +28,7 @@
   let flag:Ref<Boolean> = ref(true)
   let flag1:Ref<Boolean> = ref(true)
 </script>
-<style src="./animate.css"></style>
+<style src="../animate.css"></style>
 <style scoped>
 .box{
   width:200px;

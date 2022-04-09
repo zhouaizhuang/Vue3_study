@@ -48,9 +48,10 @@
     <div class="f">
       <div class="pr20r b" style="width:2.2rem;">动画</div>
       <div class="f1 f xs ac rw">
-        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/transition">transition动画(过渡类名)</router-link></div>
-        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/transition2">transition2动画(三方动画类)</router-link></div>
-        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/transition3">transition3动画(首次渲染动画)</router-link></div>
+        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/transition">transition(过渡类名)</router-link></div>
+        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/transition2">transition2(三方动画类)</router-link></div>
+        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/transition3">transition3(首次渲染动画)</router-link></div>
+        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/transitionGroup">transitionGroup(列表动画)</router-link></div>
       </div>
     </div>
   </div>
