@@ -3,6 +3,7 @@ import { refs } from "./modules/ref"
 import { reactive } from "./modules/reactive"
 import { monitor } from "./modules/monitor"
 import { cmpt } from "./modules/component"
+import { transition } from "./modules/transition"
 const routes:Array<RouteRecordRaw> = [
   { path: '/', redirect: { name: 'index' } },
   { path: '/index', name: 'index', component: () => import('../views/index.vue') },
@@ -11,6 +12,7 @@ const routes:Array<RouteRecordRaw> = [
   ...reactive,
   ...monitor,
   ...cmpt,
+  ...transition,
 ]
 const router = createRouter({
   history: createWebHistory(),
