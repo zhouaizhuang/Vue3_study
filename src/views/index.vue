@@ -52,6 +52,7 @@
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/transition2">transition2(三方动画类)</router-link></div>
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/transition3">transition3(首次渲染动画)</router-link></div>
         <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/transitionGroup">transitionGroup(列表动画)</router-link></div>
+        <div class="db w20 pb30 min190px"><router-link class="g42b983" to="/transitionGroup2">transitionGroup2(平面动画)</router-link></div>
       </div>
     </div>
   </div>
