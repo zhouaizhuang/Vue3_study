@@ -2,7 +2,7 @@
   <div class="mh100vh">
     <div>过渡类名</div>
     <div @click="flag=!flag" class="dib mt20 pr10 pl10 pr10 pt10 pb10 bdc rds30 bg1890ff gf">点我切换状态</div>
-    <!-- <transition
+    <transition
       enter-from-class="fade-enter-from"
       enter-active-class="fade-enter-active"
       enter-to-class="fade-enter-to"
@@ -11,7 +11,7 @@
       leave-to-class="fade-leave-to"
     >
       <div v-if="flag" class="box"></div>
-    </transition> -->
+    </transition>
     <div class="mt50">结合第三方的动画</div>
     <div @click="flag1=!flag1" class="dib mt20 pr10 pl10 pr10 pt10 pb10 bdc rds30 bg1890ff gf">点我切换状态</div>
     <transition
